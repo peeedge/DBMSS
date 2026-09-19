@@ -78,6 +78,14 @@ h1,
   cursor: pointer;
 }
 
+.hotspot-place {
+  left: 24%;
+  top: 39.5%;
+  width: 52%;
+  height: 6.2%;
+  border-radius: 6px;
+}
+
 .hotspot-food {
   left: 14.2%;
   top: 57.2%;
