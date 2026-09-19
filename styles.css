@@ -114,6 +114,56 @@ h1,
   height: 6.2%;
 }
 
+.flyer-venmo {
+  position: absolute;
+  left: 50%;
+  top: 71.6%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 18%;
+  height: 6.4%;
+  padding: 0 0.4em;
+  border: 2px solid #c4a35a;
+  border-radius: 8px;
+  background: #154734;
+  color: #f7f1e4;
+  font-family: Outfit, system-ui, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.05;
+  -webkit-mask-image:
+    radial-gradient(circle at 0 50%, transparent 0.42em, #000 0.44em),
+    radial-gradient(circle at 100% 50%, transparent 0.42em, #000 0.44em);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    radial-gradient(circle at 0 50%, transparent 0.42em, #000 0.44em),
+    radial-gradient(circle at 100% 50%, transparent 0.42em, #000 0.44em);
+  mask-composite: intersect;
+}
+
+.flyer-venmo-title {
+  font-size: clamp(0.58rem, 1.55vw, 0.82rem);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.flyer-venmo-handle {
+  font-size: clamp(0.48rem, 1.15vw, 0.64rem);
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+
+.flyer-venmo:hover,
+.flyer-venmo:focus-visible {
+  background: #1d3a2a;
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
 .hotspot:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 2px;
