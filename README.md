@@ -18,7 +18,7 @@ From this folder, start the local server:
 .\bootstrap.ps1
 ```
 
-Or double-click `bootstrap.cmd`. Then visit `http://127.0.0.1:8080/`.
+Or double-click `bootstrap.cmd`. It starts the server and opens `http://127.0.0.1:8080/` in your browser.
 
 Press Ctrl+C in that terminal to stop the server.
 
