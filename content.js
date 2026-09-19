@@ -6,8 +6,8 @@
  * set image to that path, e.g. "assets/hero.jpg".
  */
 window.EVENT = {
-  name: "DBMS",
+  name: "Daniel Boyle Memorial Scholarship FUNdraiser",
   kicker: " ",
-  image: "assets/GreenVersion.png",
-  imageAlt: "Daniel Boyle Memorial Scholarship silent auction bid sheet",
+  image: "assets/FestiveWebPageWithoutQRCode.png",
+  imageAlt: "Daniel Boyle Memorial Scholarship FUNdraiser flyer for January 30, 2027 at Ben Wilson Senior Center",
 };
