@@ -10,4 +10,5 @@ window.EVENT = {
   kicker: " ",
   image: "assets/FestiveWebPageWithoutQRCode.png",
   imageAlt: "Daniel Boyle Memorial Scholarship FUNdraiser flyer for January 30, 2027 at Ben Wilson Senior Center",
+  tickets: "TICKETS - $35.00 or 2 for $60.00",
 };

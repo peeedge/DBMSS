@@ -145,6 +145,25 @@ h1,
   mask-composite: intersect;
 }
 
+.flyer-tickets {
+  position: absolute;
+  left: 50%;
+  top: 81.6%;
+  transform: translateX(-50%);
+  width: 78%;
+  margin: 0;
+  padding: 0.12em 0.2em;
+  background: #f8f3e6;
+  color: #1d3a2a;
+  font-family: Fraunces, Georgia, serif;
+  font-size: clamp(0.72rem, 2.15vw, 1.35rem);
+  font-weight: 640;
+  letter-spacing: 0.02em;
+  text-align: center;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
 .flyer-venmo-title {
   font-size: clamp(0.58rem, 1.55vw, 0.82rem);
   letter-spacing: 0.12em;
