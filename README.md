@@ -12,13 +12,15 @@ Do not put secrets in this folder. Anything here can go live on the public web.
 
 ## Preview locally
 
-Open `index.html` in a browser, or from this folder:
+From this folder, start the local server:
 
 ```powershell
-python -m http.server 8080
+.\bootstrap.ps1
 ```
 
-Then visit `http://localhost:8080`.
+Or double-click `bootstrap.cmd`. Then visit `http://127.0.0.1:8080/`.
+
+Press Ctrl+C in that terminal to stop the server.
 
 ## Put it on the web (GitHub Pages)
 
