@@ -1,10 +1,13 @@
 /**
  * Edit this file to update the event page.
  * After you save, refresh the browser to see changes.
+ *
+ * To use your own photo, put it in the assets folder and
+ * set image to that path, e.g. "assets/hero.jpg".
  */
 window.EVENT = {
   name: "DBMS",
   kicker: " ",
-  description:
-    "Swap this paragraph for what the gathering actually is: who it's for, the vibe, and why people should show up. Keep it to a few sentences so guests can scan it on a phone.",
+  image: "assets/GreenVersion.png",
+  imageAlt: "Daniel Boyle Memorial Scholarship silent auction bid sheet",
 };

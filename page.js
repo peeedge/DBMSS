@@ -7,7 +7,15 @@
     if (value != null) node.textContent = value;
   });
 
+  var image = document.querySelector(".hero-image");
+  if (image && event.image) {
+    image.src = event.image;
+    image.alt = event.imageAlt || event.name || "";
+  }
+
   if (event.name) document.title = event.name;
   var meta = document.querySelector('meta[name="description"]');
-  if (meta && event.description) meta.setAttribute("content", event.description);
+  if (meta && (event.imageAlt || event.name)) {
+    meta.setAttribute("content", event.imageAlt || event.name);
+  }
 })();
