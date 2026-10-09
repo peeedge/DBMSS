@@ -56,8 +56,6 @@ h1,
   max-width: none;
   margin: 0;
   height: auto;
-  border-radius: 4px;
-  box-shadow: 0 18px 48px rgba(29, 58, 42, 0.16);
 }
 
 .hotspots {
@@ -79,39 +77,69 @@ h1,
 }
 
 .hotspot-place {
-  left: 24%;
-  top: 39.5%;
-  width: 52%;
-  height: 6.2%;
+  left: 25%;
+  top: 60%;
+  width: 50%;
+  height: 9%;
   border-radius: 6px;
 }
 
 .hotspot-food {
   left: 14.2%;
-  top: 57.2%;
-  width: 16%;
-  height: 6.2%;
+  top: 87.6%;
+  width: 15.6%;
+  height: 8.6%;
 }
 
 .hotspot-drinks {
-  left: 33%;
-  top: 57.2%;
-  width: 16%;
-  height: 6.2%;
+  left: 32.9%;
+  top: 87.6%;
+  width: 15.6%;
+  height: 8.6%;
 }
 
 .hotspot-trivia {
   left: 51.2%;
-  top: 57.2%;
-  width: 16%;
-  height: 6.2%;
+  top: 87.6%;
+  width: 15.6%;
+  height: 8.6%;
 }
 
 .hotspot-auction {
   left: 70%;
-  top: 57.2%;
-  width: 16%;
-  height: 6.2%;
+  top: 87.6%;
+  width: 15.6%;
+  height: 8.6%;
+}
+
+/* The form is enlarged by --form-scale; height is the form's unscaled height. */
+.register-frame {
+  --form-scale: 1.5;
+  --form-height: 1800px;
+  height: calc(var(--form-height) * var(--form-scale));
+  overflow: hidden;
+  background: #fff;
+}
+
+.register-form {
+  display: block;
+  width: calc(100% / var(--form-scale));
+  height: var(--form-height);
+  border: 0;
+  transform: scale(var(--form-scale));
+  transform-origin: 0 0;
+}
+
+@media (max-width: 700px) {
+  .register-frame {
+    --form-scale: 1;
+  }
+}
+
+.flyer-bottom {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .flyer-venmo {

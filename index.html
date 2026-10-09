@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,640&family=Outfit:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=4" />
   </head>
   <body>
     <header class="hero">
@@ -31,22 +31,26 @@
           <a class="hotspot hotspot-drinks" href="drinks.html">Drinks</a>
           <a class="hotspot hotspot-trivia" href="trivia.html">Trivia Night</a>
           <a class="hotspot hotspot-auction" href="silent-auction.html">Silent Auction</a>
-          <a
-            class="flyer-venmo"
-            href="https://venmo.com/u/Francine-Boyle-1"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Venmo @Francine-Boyle-1"
-          >
-            <span class="flyer-venmo-title">Venmo</span>
-            <!-- <span class="flyer-venmo-handle">@Francine-Boyle-1</span> -->
-          </a>
-          <p class="flyer-tickets" data-bind="tickets"></p>
         </nav>
       </div>
+
+      <div class="register-frame">
+        <iframe
+          class="register-form"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdkV1Na7tOZTGsL7vOSdFnA8g5J_HRihNoZJBpAqUWMkDbCfw/viewform?embedded=true"
+          title="Registration form"
+          >Loading…</iframe
+        >
+      </div>
+
+      <img
+        class="flyer-bottom"
+        src="assets/FestiveWebPageWithoutQRCodeBottom.png"
+        alt="Checks payable to the Dan Boyle Memorial Scholarship"
+      />
     </header>
 
-    <script src="content.js"></script>
-    <script src="page.js"></script>
+    <script src="content.js?v=3"></script>
+    <script src="page.js?v=3"></script>
   </body>
 </html>
